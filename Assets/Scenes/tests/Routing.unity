@@ -1746,10 +1746,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turns: 10
-  players: {fileID: 0}
+  players: {fileID: 68181842}
   turnManager: {fileID: 281063269}
   UI: {fileID: 345635346}
-  player_UI: []
+  player_UI:
+  - {fileID: 527118333}
+  - {fileID: 366565379}
+  - {fileID: 2012087201}
+  - {fileID: 618361469}
 --- !u!4 &1105329395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2307136783828874225, guid: af358ca0cbc48c04e9af81d3faa23280,
