@@ -17,7 +17,6 @@ public class routeInit : MonoBehaviour
             if(child.GetComponent<boardSpot>().isStar==true)
             {
                 starList.Add(child);
-                
             }
             if(i==transform.childCount-1)
             {
