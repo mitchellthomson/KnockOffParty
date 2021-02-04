@@ -46,21 +46,20 @@ public class playerMove : MonoBehaviour
             
             while(MoveToNextNode(nextPos,player)){yield return null;}
 
-
-            if(curSpot.GetComponent<boardSpot>().curStar == true)
+            if(nextSpot.GetComponent<boardSpot>().curStar == true)
             {
                 print("Its a star");
+                
             }
             else
             {
                 speed--;
             }
             player.GetComponent<playerInfo>().Player_Cur_Pos = nextSpot;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.05f);
         }
         curSpot = nextSpot;
         nextSpot = curSpot.GetComponent<boardSpot>().nextSpot;
-        yield return new WaitForSeconds(1f);
         
         int chips = curSpot.GetComponent<boardSpot>().spotChips;
         Endmove(chips);
