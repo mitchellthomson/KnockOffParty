@@ -9,7 +9,7 @@ public class gameManage : MonoBehaviour
     public int turns = 10;
     
     [SerializeField]
-    public Transform Players;
+    public Transform players;
 
     [SerializeField]
     public turnManager turnManager;
@@ -18,13 +18,12 @@ public class gameManage : MonoBehaviour
     public Text UI;
 
     [SerializeField]
-    public Text[] Player_UI;
+    public Text[] player_UI;
     
 
     void Start() 
     {
         UI.text="Welcome";
-        Players = transform.Find("PlayerManager");
         gameStarted();
     }
 
@@ -32,7 +31,7 @@ public class gameManage : MonoBehaviour
     {
         Color[]playerColors = {Color.red,Color.blue,Color.yellow,Color.green};
         int i =0;
-        foreach(Transform child in Players)
+        foreach(Transform child in players)
         {
             Material spotMat = child.GetComponent<Renderer>().material;
             spotMat.color=playerColors[i];
@@ -43,7 +42,6 @@ public class gameManage : MonoBehaviour
 
     public void playGame()
     {
-        
         turnManager.startTurn();
     }
 
@@ -54,8 +52,8 @@ public class gameManage : MonoBehaviour
 
     public void PlayerUI(int player,int playerChips)
     {
-        Text ui = Player_UI[player];
-        Transform activePlayer = Players.GetChild(player);
+        Text ui = player_UI[player];
+        Transform activePlayer = players.GetChild(player);
         ui.text = "Player"+(player+1)+"Chips: "+(playerChips)  + "Stars: "+activePlayer.GetComponent<playerInfo>().Player_Stars;
     }
 }

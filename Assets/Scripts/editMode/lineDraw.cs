@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class lineDraw : MonoBehaviour
 {
-    public boardSpot boardSpot;
     void OnDrawGizmos() 
     {
-
+        Gizmos.color=Color.cyan;
         //Draws lines bettween points on individual routes
-        Gizmos.color = Color.red;
-
-        Transform routeToDraw = transform.GetChild(0);
-
-        foreach(Transform child in routeToDraw)
+        int i =0;
+        while(i<transform.childCount)
         {
-            Vector3 toDraw = child.GetComponent<boardSpot>().nextSpot.position;
-            Vector3 cur = child.position;
+            Transform routeToDraw = transform.GetChild(i);
+            Vector3 toDraw = routeToDraw.GetComponent<boardSpot>().nextSpot.position;
+            Vector3 cur = routeToDraw.position;
             Gizmos.DrawLine(cur,toDraw);
+            i++;
         }
+        
     }
 }

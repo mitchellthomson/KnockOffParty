@@ -23,6 +23,12 @@ public Transform nextSpot;
 [SerializeField]
 public int spotChips;
 
+[SerializeField]
+public bool isStar;
+
+[SerializeField]
+public bool curStar;
+
 void Awake()
 {
     Material spotMat = gameObject.GetComponent<Renderer>().material;
@@ -39,6 +45,10 @@ void Awake()
         case spotColour.green:
             spotMat.color=Color.green;
             break;
+    }
+    if(curStar==true)
+    {
+        spotMat.color=Color.white;
     }
 }
 
