@@ -24,7 +24,6 @@ public class gameManage : MonoBehaviour
     void Start() 
     {
         UI.text="Welcome";
-        Players = transform.Find("PlayerManager");
         gameStarted();
     }
 
