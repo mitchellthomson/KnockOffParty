@@ -56,8 +56,12 @@ public class playerMove : MonoBehaviour
             if(nextSpot.GetComponent<boardSpot>().curStar == true)
             {
                 print("Its a star");
+                curSpot = nextSpot;
+                nextSpot = curSpot.GetComponent<boardSpot>().nextSpot;
+                nextPos = nextSpot.position;
                 StopAllCoroutines();
                 starPurchase.starSpot(speed,player);
+
             }
             else
             {
@@ -73,6 +77,13 @@ public class playerMove : MonoBehaviour
         Endmove(chips);
     }
 
+    public IEnumerator returnFromShop(int speed,Transform player)
+    {
+        print("HELLO");
+        while(MoveToNextNode(nextPos,player)){yield return null;}
+        speed--;
+        StartCoroutine(Move(speed,player));
+    }
     bool MoveToNextNode(Vector3 goal,Transform player)
     {
         return goal !=(player.position = Vector3.MoveTowards(player.position,goal,2f* Time.deltaTime));
