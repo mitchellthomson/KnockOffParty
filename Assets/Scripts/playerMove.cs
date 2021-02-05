@@ -9,15 +9,21 @@ public class playerMove : MonoBehaviour
     bool isMoving;
     [SerializeField]
     private Transform curSpot;
+
     [SerializeField]
     private Transform nextSpot;
+
     [SerializeField]
     private Vector3 nextPos;
+
     [SerializeField]
     public Transform activePlayer;
 
     [SerializeField]
     public turnManager turnManager;
+
+    [SerializeField]
+    public starPurchase starPurchase;
 
     public void StartMove(int speed, int playerNumber)
     {
@@ -27,6 +33,7 @@ public class playerMove : MonoBehaviour
         
         activePlayer = player;
     }
+
     public IEnumerator Move(int speed,Transform player)
     {
         isMoving = false;
@@ -49,7 +56,12 @@ public class playerMove : MonoBehaviour
             if(nextSpot.GetComponent<boardSpot>().curStar == true)
             {
                 print("Its a star");
-                
+                curSpot = nextSpot;
+                nextSpot = curSpot.GetComponent<boardSpot>().nextSpot;
+                nextPos = nextSpot.position;
+                StopAllCoroutines();
+                starPurchase.starSpot(speed,player);
+
             }
             else
             {
@@ -65,6 +77,13 @@ public class playerMove : MonoBehaviour
         Endmove(chips);
     }
 
+    public IEnumerator returnFromShop(int speed,Transform player)
+    {
+        print("HELLO");
+        while(MoveToNextNode(nextPos,player)){yield return null;}
+        speed--;
+        StartCoroutine(Move(speed,player));
+    }
     bool MoveToNextNode(Vector3 goal,Transform player)
     {
         return goal !=(player.position = Vector3.MoveTowards(player.position,goal,2f* Time.deltaTime));

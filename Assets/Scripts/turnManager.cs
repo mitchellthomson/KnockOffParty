@@ -19,7 +19,9 @@ public class turnManager : MonoBehaviour
     {
         if(activePlayer == 4)
         {
-            activePlayer = 0;
+            print("turn over");
+            activePlayer=0;
+            
         }
         print("Player "+ (activePlayer+1) +"'s Turn!");
 
