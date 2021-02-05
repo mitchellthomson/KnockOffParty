@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2307136783828874237}
   - component: {fileID: 2307136783828874236}
   - component: {fileID: 2307136783828874239}
-  - component: {fileID: 2307136783828874238}
+  - component: {fileID: 6251481120212413773}
   m_Layer: 0
   m_Name: Spot
   m_TagString: Untagged
@@ -94,7 +94,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2307136783828874238
+--- !u!114 &6251481120212413773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,10 +103,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2307136783828874224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95e71e7d3cb36c54296240904f96e817, type: 3}
+  m_Script: {fileID: 11500000, guid: 06161b6d929c34848bb60e3a648def9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colour: 0
-  nextSpot: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
-    type: 3}
+  nextSpot: {fileID: 0}
   spotChips: 0
+  isStar: 0
+  curStar: 0

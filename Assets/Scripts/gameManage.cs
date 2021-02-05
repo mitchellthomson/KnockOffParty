@@ -15,6 +15,9 @@ public class gameManage : MonoBehaviour
     public turnManager turnManager;
 
     [SerializeField]
+    public boardManager boardManager;
+
+    [SerializeField]
     public Text UI;
 
     [SerializeField]
@@ -37,6 +40,7 @@ public class gameManage : MonoBehaviour
             spotMat.color=playerColors[i];
             i++;
         }
+        boardManager.refreshStar();
         playGame();
     }
 
