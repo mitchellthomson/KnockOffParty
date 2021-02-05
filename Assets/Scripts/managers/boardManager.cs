@@ -18,9 +18,12 @@ public class boardManager : MonoBehaviour
 
     public void refreshStar()
     {
-        starList[starPosCount].GetComponent<spot>().curStar = true;
-        spotManager.spots();
-        print(starList.Count);
+        if(starList.Count>0)
+        {
+            starList[starPosCount].GetComponent<spot>().curStar = true;
+            spotManager.spots();
+            print(starList.Count);
+        }
     }
 
     public void randomizeStar(int i)

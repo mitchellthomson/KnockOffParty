@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &38063498461357360
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4610630928684024696}
-  m_Layer: 0
-  m_Name: Right
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4610630928684024696
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38063498461357360}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0051502883, y: 0.000019967556, z: -0.0068000033}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 582843124261545866}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &582843123931104514
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +31,7 @@ Transform:
   m_LocalScale: {x: 0.0018894857, y: 0.001, z: 0.013874332}
   m_Children: []
   m_Father: {fileID: 582843124261545866}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -70, z: 0}
 --- !u!33 &582843123931104518
 MeshFilter:
@@ -149,11 +119,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582843124261545867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28946665, y: 0.5003, z: 0.0642}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5808983774969556339}
-  - {fileID: 4610630928684024696}
   - {fileID: 582843123931104513}
   - {fileID: 582843124700985916}
   m_Father: {fileID: 0}
@@ -224,7 +193,7 @@ Transform:
   m_LocalScale: {x: 0.0013399668, y: 0.001, z: 0.01985257}
   m_Children: []
   m_Father: {fileID: 582843124261545866}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -7, z: 0}
 --- !u!33 &582843124700985905
 MeshFilter:

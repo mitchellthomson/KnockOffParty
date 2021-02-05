@@ -2485,8 +2485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fde9d59d5ad4174db2dcbc5cd08f1f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starList:
-  - {fileID: 650304271}
+  starList: []
 --- !u!4 &934915666
 Transform:
   m_ObjectHideFlags: 0
@@ -2563,7 +2562,7 @@ PrefabInstance:
     - target: {fileID: 2307136783828874225, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2307136783828874225, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}

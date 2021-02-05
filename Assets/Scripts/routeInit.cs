@@ -9,32 +9,30 @@ public class routeInit : MonoBehaviour
     public List<Transform> starList = new List<Transform>();
     public void Awake()
     {
-        starList.Clear();
+        int leftPathCount = transform.parent.childCount-1;
+        int leftCounter = 1;
         int i = 0;
         while(i<transform.childCount)
         {
             Transform child = transform.GetChild(i);
-
             if(child.GetComponent<spot>().isArrow==true)
             {
-                for(int j=0; j<2; j++)
-                {
-                    Transform arrowPath = child.GetChild(j);
-                    
-                    for(int k=0; k<arrowPath.childCount; k++)
-                    {
-                        Transform pathSpot = arrowPath.GetChild(k);
+                child.GetComponent<arrow>().Rightpath=transform.GetChild(i+1);
 
-                        if(k==arrowPath.childCount-1)
-                        {
-                            pathSpot.GetComponent<spot>().nextSpot=transform.GetChild(i+1);
-                        }
-                        else
-                        {
-                            pathSpot.GetComponent<spot>().nextSpot=arrowPath.GetChild(k+1);
-                        }
-                    }
+                for(int j = 0;j<child.childCount-1;j++)
+                {
+                    Transform rightChild = child.GetChild(j);
+                    rightChild.GetComponent<spot>().nextSpot = child.GetChild(j+1);
                 }
+
+                child.GetComponent<arrow>().Leftpath=transform.parent.GetChild(leftCounter).GetChild(0);
+                for(int x = 0;x<transform.parent.GetChild(leftCounter).childCount-1;x++)
+                {
+                    Transform leftChild = transform.parent.GetChild(leftCounter).GetChild(x);
+                    print(leftChild);
+                    leftChild.GetComponent<spot>().nextSpot = transform.parent.GetChild(leftCounter).GetChild(x+1);
+                }
+                leftCounter++;
             }
             else
             {
