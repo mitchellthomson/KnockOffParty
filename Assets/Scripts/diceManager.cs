@@ -7,20 +7,20 @@ public class diceManager : MonoBehaviour
     public int rolled;
 
     public IEnumerator turnRoll(KeyCode key)
-{
-    bool hasRolled = false;
-    while(!hasRolled)
     {
-        if(Input.GetKeyDown(key))
+        bool hasRolled = false;
+        while(!hasRolled)
         {
-            print("We Rolling");
-            hasRolled = true;
-            rolled = Random.Range(1,11);
-            
-            yield return rolled;
+            if(Input.GetKeyDown(key))
+            {
+                print("We Rolling");
+                hasRolled = true;
+                rolled = Random.Range(1,11);
+                
+                yield return rolled;
 
+            }
+            yield return null;
         }
-        yield return null;
     }
-}
 }
