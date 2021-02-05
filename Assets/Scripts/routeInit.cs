@@ -14,19 +14,24 @@ public class routeInit : MonoBehaviour
         while(i<transform.childCount)
         {
             Transform child = transform.GetChild(i);
-            if(child.GetComponent<spot>().isStar==true)
+            if(child.GetComponent<spot>().isArrow==false)
             {
-                starList.Add(child);
+
+                if(child.GetComponent<spot>().isStar==true)
+                {
+                    starList.Add(child);
+                }
+                /*if(i==transform.childCount-1)
+                {
+                    child.GetComponent<spot>().nextSpot = transform.GetChild(1);
+                }
+                else
+                {
+                    child.GetComponent<spot>().nextSpot = transform.GetChild(i+1);
+                }
+                */
             }
-            if(i==transform.childCount-1)
-            {
-                child.GetComponent<spot>().nextSpot = transform.GetChild(1);
-            }
-            else
-            {
-                child.GetComponent<spot>().nextSpot = transform.GetChild(i+1);
-            }
-            
+
             i++;
         }
 

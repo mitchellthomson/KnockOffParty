@@ -102,6 +102,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 582843124261545866}
+  - component: {fileID: 4370091230525921377}
+  - component: {fileID: 5984629169946427434}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Arrow
@@ -125,6 +127,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4370091230525921377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582843124261545867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef05b6d412471a2429ef1bdb06af09fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Leftpath: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
+    type: 3}
+  Rightpath: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
+    type: 3}
+--- !u!114 &5984629169946427434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582843124261545867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06161b6d929c34848bb60e3a648def9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colour: 0
+  nextSpot: {fileID: 0}
+  spotChips: 0
+  isStar: 0
+  curStar: 0
+  isArrow: 1
 --- !u!1 &582843124700985917
 GameObject:
   m_ObjectHideFlags: 0
