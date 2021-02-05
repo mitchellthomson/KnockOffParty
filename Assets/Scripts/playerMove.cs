@@ -9,15 +9,21 @@ public class playerMove : MonoBehaviour
     bool isMoving;
     [SerializeField]
     private Transform curSpot;
+
     [SerializeField]
     private Transform nextSpot;
+
     [SerializeField]
     private Vector3 nextPos;
+
     [SerializeField]
     public Transform activePlayer;
 
     [SerializeField]
     public turnManager turnManager;
+
+    [SerializeField]
+    public starPurchase starPurchase;
 
     public void StartMove(int speed, int playerNumber)
     {
@@ -27,6 +33,7 @@ public class playerMove : MonoBehaviour
         
         activePlayer = player;
     }
+
     public IEnumerator Move(int speed,Transform player)
     {
         isMoving = false;
@@ -49,7 +56,8 @@ public class playerMove : MonoBehaviour
             if(nextSpot.GetComponent<boardSpot>().curStar == true)
             {
                 print("Its a star");
-                
+                StopAllCoroutines();
+                starPurchase.starSpot(speed,player);
             }
             else
             {
