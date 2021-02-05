@@ -47,17 +47,17 @@ public class playerMove : MonoBehaviour
         while(speed>0)
         {
             curSpot = player.GetComponent<playerInfo>().Player_Cur_Pos;
-            nextSpot = curSpot.GetComponent<boardSpot>().nextSpot;
+            nextSpot = curSpot.GetComponent<spot>().nextSpot;
 
             nextPos = nextSpot.position;
             
             while(MoveToNextNode(nextPos,player)){yield return null;}
 
-            if(nextSpot.GetComponent<boardSpot>().curStar == true)
+            if(nextSpot.GetComponent<spot>().curStar == true)
             {
                 print("Its a star");
                 curSpot = nextSpot;
-                nextSpot = curSpot.GetComponent<boardSpot>().nextSpot;
+                nextSpot = curSpot.GetComponent<spot>().nextSpot;
                 nextPos = nextSpot.position;
                 StopAllCoroutines();
                 starPurchase.starSpot(speed,player);
@@ -71,15 +71,14 @@ public class playerMove : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         curSpot = nextSpot;
-        nextSpot = curSpot.GetComponent<boardSpot>().nextSpot;
+        nextSpot = curSpot.GetComponent<spot>().nextSpot;
         
-        int chips = curSpot.GetComponent<boardSpot>().spotChips;
+        int chips = curSpot.GetComponent<spot>().spotChips;
         Endmove(chips);
     }
 
     public IEnumerator returnFromShop(int speed,Transform player)
     {
-        print("HELLO");
         while(MoveToNextNode(nextPos,player)){yield return null;}
         speed--;
         StartCoroutine(Move(speed,player));

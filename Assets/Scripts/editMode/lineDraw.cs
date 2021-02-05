@@ -12,7 +12,7 @@ public class lineDraw : MonoBehaviour
         while(i<transform.childCount)
         {
             Transform routeToDraw = transform.GetChild(i);
-            Vector3 toDraw = routeToDraw.GetComponent<boardSpot>().nextSpot.position;
+            Vector3 toDraw = routeToDraw.GetComponent<spot>().nextSpot.position;
             Vector3 cur = routeToDraw.position;
             Gizmos.DrawLine(cur,toDraw);
             i++;
