@@ -17,11 +17,14 @@ public class starPurchase : MonoBehaviour
     [SerializeField]
     private int returningSpeed;
 
+    [SerializeField]
+    public boardManager boardManager;
     public void acceptStar()
     {
         star_UI.SetActive(false);
         buyingPlayer.GetComponent<playerInfo>().Player_Chips -= 15;
         buyingPlayer.GetComponent<playerInfo>().Player_Stars++;
+        boardManager.newStar();
         StartCoroutine(playerMove.returnFromShop(returningSpeed,buyingPlayer));
     }
 

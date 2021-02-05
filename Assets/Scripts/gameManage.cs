@@ -40,6 +40,7 @@ public class gameManage : MonoBehaviour
             spotMat.color=playerColors[i];
             i++;
         }
+        boardManager.randomizeStar(0);
         boardManager.refreshStar();
         playGame();
     }

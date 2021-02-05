@@ -30,13 +30,6 @@ public class routeInit : MonoBehaviour
             i++;
         }
 
-        for (int j = 0; j < starList.Count; j++) 
-        {
-            Transform temp = starList[j];
-            int randomIndex = Random.Range(j, starList.Count);
-            starList[j] = starList[randomIndex];
-            starList[randomIndex] = temp;
-        }
     }
 
 
