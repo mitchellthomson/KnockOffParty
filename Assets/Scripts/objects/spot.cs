@@ -28,4 +28,7 @@ public class spot : MonoBehaviour
     [SerializeField]
     public bool curStar;
 
+    [SerializeField]
+    public bool isArrow = false;
+
 }

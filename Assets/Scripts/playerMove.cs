@@ -25,6 +25,9 @@ public class playerMove : MonoBehaviour
     [SerializeField]
     public starPurchase starPurchase;
 
+    [SerializeField]
+    public arrowRoute arrowRoute;
+
     public void StartMove(int speed, int playerNumber)
     {
         Transform player = transform.GetChild(playerNumber);
@@ -63,6 +66,13 @@ public class playerMove : MonoBehaviour
                 starPurchase.starSpot(speed,player);
 
             }
+            else if(nextSpot.GetComponent<spot>().isArrow==true)
+            {
+                print("Its an arrow");
+                curSpot = nextSpot;
+                StopAllCoroutines();
+                arrowRoute.arrowPick(speed,player,nextSpot);
+            }
             else
             {
                 speed--;
@@ -83,6 +93,16 @@ public class playerMove : MonoBehaviour
         speed--;
         StartCoroutine(Move(speed,player));
     }
+
+    public IEnumerator returnFromArrow(int speed, Transform player, Transform arrow)
+    {
+        nextSpot = arrow.GetComponent<spot>().nextSpot;
+        nextPos = nextSpot.position;
+        while(MoveToNextNode(nextPos,player)){yield return null;}
+        speed--;
+        StartCoroutine(Move(speed,player));
+    }
+
     bool MoveToNextNode(Vector3 goal,Transform player)
     {
         return goal !=(player.position = Vector3.MoveTowards(player.position,goal,2f* Time.deltaTime));

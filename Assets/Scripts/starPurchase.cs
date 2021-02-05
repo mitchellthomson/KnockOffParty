@@ -19,6 +19,7 @@ public class starPurchase : MonoBehaviour
 
     [SerializeField]
     public boardManager boardManager;
+    
     public void acceptStar()
     {
         star_UI.SetActive(false);
