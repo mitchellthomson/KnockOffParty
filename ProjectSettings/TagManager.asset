@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Start
+  - Arrow
+  - Cross
   layers:
   - Default
   - TransparentFX
