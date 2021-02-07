@@ -15,17 +15,17 @@ public class lineDraw : MonoBehaviour
 
             if(routeToDraw.GetComponent<spot>().isArrow)
             {
-                Gizmos.color=Color.red;
+                Gizmos.color=Color.blue;
                 Vector3 curArrow = routeToDraw.position;
                 Vector3 leftDraw = routeToDraw.GetComponent<arrow>().Leftpath.position;
                 Vector3 rightDraw = routeToDraw.GetComponent<arrow>().Rightpath.position;
                 Gizmos.DrawLine(curArrow,leftDraw);
-                Gizmos.color=Color.magenta;
+                Gizmos.color=Color.red;
                 Gizmos.DrawLine(curArrow,rightDraw);
 
-                Gizmos.color=Color.cyan;
                 i++;
                 routeToDraw = transform.GetChild(i);
+                Gizmos.color=Color.cyan;
             }
             
             Vector3 toDraw = routeToDraw.GetComponent<spot>().nextSpot.position;

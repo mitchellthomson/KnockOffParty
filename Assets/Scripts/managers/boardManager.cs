@@ -27,7 +27,7 @@ public class boardManager : MonoBehaviour
 
     public void randomizeStar(int i)
     {
-        starList = route.starList;
+        //starList = route.starList;
         while(i<starList.Count)
         {
             Transform temp = starList[i];
