@@ -22,7 +22,6 @@ public class boardManager : MonoBehaviour
         {
             starList[starPosCount].GetComponent<spot>().curStar = true;
             spotManager.spots();
-            print(starList.Count);
         }
     }
 

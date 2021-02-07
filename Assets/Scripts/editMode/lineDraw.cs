@@ -24,15 +24,13 @@ public class lineDraw : MonoBehaviour
                 Gizmos.DrawLine(curArrow,rightDraw);
 
                 Gizmos.color=Color.cyan;
-                
-
+                i++;
+                routeToDraw = transform.GetChild(i);
             }
-            else
-            {
+            
             Vector3 toDraw = routeToDraw.GetComponent<spot>().nextSpot.position;
             Vector3 cur = routeToDraw.position;
             Gizmos.DrawLine(cur,toDraw);
-            }
             i++;
         }
         
