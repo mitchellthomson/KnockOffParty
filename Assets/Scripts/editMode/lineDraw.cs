@@ -12,7 +12,8 @@ public class lineDraw : MonoBehaviour
         {
             Gizmos.color=Color.cyan;
             Transform routeToDraw = transform.GetChild(i);
-            if(routeToDraw.tag =="Arrow")
+
+            if(routeToDraw.GetComponent<spot>().isArrow)
             {
                 Gizmos.color=Color.red;
                 Vector3 curArrow = routeToDraw.position;
@@ -21,13 +22,15 @@ public class lineDraw : MonoBehaviour
                 Gizmos.DrawLine(curArrow,leftDraw);
                 Gizmos.color=Color.magenta;
                 Gizmos.DrawLine(curArrow,rightDraw);
+
+                Gizmos.color=Color.cyan;
+                i++;
+                routeToDraw = transform.GetChild(i);
             }
-            else
-            {
+            
             Vector3 toDraw = routeToDraw.GetComponent<spot>().nextSpot.position;
             Vector3 cur = routeToDraw.position;
             Gizmos.DrawLine(cur,toDraw);
-            }
             i++;
         }
         
