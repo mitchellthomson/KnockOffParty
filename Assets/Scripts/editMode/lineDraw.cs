@@ -30,7 +30,19 @@ public class lineDraw : MonoBehaviour
             
             Vector3 toDraw = routeToDraw.GetComponent<spot>().nextSpot.position;
             Vector3 cur = routeToDraw.position;
+            Vector3 prev = routeToDraw.GetComponent<spot>().prevSpot.position;
             Gizmos.DrawLine(cur,toDraw);
+
+            if(i!=0)
+            {
+                cur.x = cur.x+.05f;
+                cur.z = cur.z+.05f;
+                prev.x = prev.x+.05f;
+                prev.z = prev.z+.05f;
+                
+                Gizmos.color=Color.green;
+                Gizmos.DrawLine(cur,prev);
+            }
             i++;
         }
         

@@ -7,14 +7,14 @@ public class routeInit : MonoBehaviour
 {
     [SerializeField]
     public List<Transform> starList = new List<Transform>();
-
-    private int arrowCounter = 0;
+    
+    [SerializeField]
+    private int arrowTrack;
 
     public void Awake()
     {
-        int leftPathCount = transform.parent.childCount-1;
         int i = 0;
-
+        arrowTrack = 1;
         starList.Clear();
         while(i<transform.childCount)
         {
@@ -22,103 +22,98 @@ public class routeInit : MonoBehaviour
 
             if(child.GetComponent<spot>().isArrow==true)
             {
-                arrowRouter(child,transform,i);
-                i+=arrowCounter;
                 print(i);
-                print(transform.childCount);
+                arrowAssign(child,transform,i);
+                i+=arrowTrack;
+                print(i);
                 child = transform.GetChild(i);
-                arrowCounter=0;
+                
             }
 
             if(child.GetComponent<spot>().isStar==true)
             {
                 starList.Add(child);
             }
+            
             if(i==transform.childCount-1)
             {
                 child.GetComponent<spot>().nextSpot = transform.GetChild(1);
+                child.GetComponent<spot>().prevSpot = transform.GetChild(i-1);
+                child = transform.GetChild(1);
+                child.GetComponent<spot>().prevSpot = transform.GetChild(i);
             }
             else
             {
                 child.GetComponent<spot>().nextSpot = transform.GetChild(i+1);
+                if(i!=0)
+                {
+                    child.GetComponent<spot>().prevSpot = transform.GetChild(i-1);
+                }
             }
-
             i++;
         }
 
     }
 
-    public void arrowRouter(Transform arrow,Transform routeManager,int i)
+    public void arrowAssign(Transform arrow, Transform routeManager, int i)
     {
-        arrowCounter=0;
-        int counter = i+1;
+        int counter = i + 1;
+        arrowTrack = 1;
         Transform spot = routeManager.GetChild(counter);
-        Transform endLeftSpot=null;
-        Transform endRightSpot=null;
-
         arrow.GetComponent<arrow>().Leftpath = spot;
+
         bool check = false;
+
         while(check==false)
         {
-            if(spot.GetComponent<spot>().isArrow==true)
-            {
-                int temp = arrowCounter;
-                arrowRouter(spot,routeManager,counter);
-                arrowCounter = temp;
-            }
-
             if(spot.GetComponent<spot>().isStar==true)
             {
                 starList.Add(spot);
             }
 
-            if(spot.GetComponent<spot>().isEndOfArrowLeft==true)
-            {
-                endLeftSpot = spot;
-                arrowCounter++;
-                counter++;
-                check=true;
-            }
-
-            else
+            if(spot.GetComponent<spot>().isEndofArrow==true)
             {
                 counter++;
-                arrowCounter++;
-                spot.GetComponent<spot>().nextSpot = routeManager.GetChild(counter);
+                spot.GetComponent<spot>().nextSpot = spot.GetComponent<spot>().setSpot;
+                spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
                 spot = routeManager.GetChild(counter);
+                check = true;
             }
 
+            arrowTrack++;
+            counter++;
+            spot.GetComponent<spot>().nextSpot = routeManager.GetChild(counter);
+            spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
+            spot = routeManager.GetChild(counter);
+            
         }
 
-        spot = routeManager.GetChild(counter);
-        arrow.GetComponent<arrow>().Rightpath =spot;
+        Transform right = routeManager.GetChild(counter-1);
+        print(right);
+        arrow.GetComponent<arrow>().Rightpath = spot;
         check = false;
-
         while(check==false)
         {
             if(spot.GetComponent<spot>().isStar==true)
-                {
-                    starList.Add(spot);
-                }
-
-            if(spot.GetComponent<spot>().isEndOfArrowRight==true)
             {
-                endRightSpot = spot;
-                arrowCounter++;
-                counter++;
-                check=true;
+                starList.Add(spot);
             }
 
-            else
+            if(spot.GetComponent<spot>().isEndofArrow==true)
             {
-                counter++;
-                arrowCounter++;
-                spot.GetComponent<spot>().nextSpot = routeManager.GetChild(counter);
-                spot = routeManager.GetChild(counter);
+                arrowTrack++;
+                spot.GetComponent<spot>().nextSpot = spot.GetComponent<spot>().setSpot;
+                spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
+                check = true;
             }
+
+            arrowTrack++;
+            counter++;
+            spot.GetComponent<spot>().nextSpot = routeManager.GetChild(counter);
+            spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
+            spot = routeManager.GetChild(counter);     
         }
-        endLeftSpot.GetComponent<spot>().nextSpot=routeManager.GetChild(counter);
+        right.GetComponent<spot>().prevSpot = routeManager.GetChild(i);
     }
-    
 
 }

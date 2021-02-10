@@ -107,7 +107,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colour: 0
-  nextSpot: {fileID: 0}
+  nextSpot: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
+    type: 3}
+  prevSpot: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
+    type: 3}
+  setSpot: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121, type: 3}
   spotChips: 0
   isStar: 0
   curStar: 0
+  isArrow: 0
+  isEndofArrow: 0
