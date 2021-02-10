@@ -65,7 +65,7 @@ public class routingTest : MonoBehaviour
             if(spot.GetComponent<spot>().isArrow==true)
             {
                 arrowRouter(spot,routeManager,tracker);
-                spot = routeManager.GetChild(tracker);
+                spot = routeManager.GetChild(tracker+1);
                 
             }
 
@@ -118,6 +118,7 @@ public class routingTest : MonoBehaviour
             }
         }
         endLeftSpot.GetComponent<spot>().nextSpot = routeManager.GetChild(tracker);
+        endRightSpot.GetComponent<spot>().nextSpot = routeManager.GetChild(tracker);
         print("tracker"+tracker);
     }
     
