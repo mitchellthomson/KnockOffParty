@@ -74,22 +74,22 @@ public class routeInit : MonoBehaviour
             if(spot.GetComponent<spot>().isEndofArrow==true)
             {
                 counter++;
+                spot = routeManager.GetChild(counter);
                 spot.GetComponent<spot>().nextSpot = spot.GetComponent<spot>().setSpot;
                 spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
-                spot = routeManager.GetChild(counter);
                 check = true;
             }
-
-            arrowTrack++;
-            counter++;
-            spot.GetComponent<spot>().nextSpot = routeManager.GetChild(counter);
-            spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
-            spot = routeManager.GetChild(counter);
-            
+            else
+            {
+                arrowTrack++;
+                counter++;
+                spot.GetComponent<spot>().nextSpot = routeManager.GetChild(counter);
+                spot.GetComponent<spot>().prevSpot = routeManager.GetChild(counter-2);
+                spot = routeManager.GetChild(counter);
+            }
         }
 
-        Transform right = routeManager.GetChild(counter-1);
-        print(right);
+        Transform right = routeManager.GetChild(counter);
         arrow.GetComponent<arrow>().Rightpath = spot;
         check = false;
         while(check==false)
