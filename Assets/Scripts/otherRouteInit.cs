@@ -23,7 +23,7 @@ public class otherRouteInit : MonoBehaviour
 
             if(child.GetComponent<spot>().isArrow==true)
             {
-                print("HI" + i);
+                child.GetComponent<spot>().prevSpot = transform.GetChild(i-1);
                 Arrows.Add(i);
                 i++;
                 child = transform.GetChild(i);
