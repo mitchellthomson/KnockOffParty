@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,6 +20,12 @@ public class spot : MonoBehaviour
     public Transform nextSpot;
 
     [SerializeField]
+    public Transform prevSpot;
+
+    [SerializeField]
+    public Transform setSpot;
+
+    [SerializeField]
     public int spotChips;
 
     [SerializeField]
@@ -30,12 +36,6 @@ public class spot : MonoBehaviour
 
     [SerializeField]
     public bool isArrow = false;
-
-    [SerializeField]
-    public bool isEndOfArrowLeft = false;
-
-    [SerializeField]
-    public bool isEndOfArrowRight = false;
 
     [SerializeField]
     public bool isEndofArrow = false;
