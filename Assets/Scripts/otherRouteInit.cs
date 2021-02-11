@@ -61,8 +61,6 @@ public class otherRouteInit : MonoBehaviour
             }
             i++;
         }
-        print(Arrows[0]);
-        print(Arrows.Count);
 
     }
 

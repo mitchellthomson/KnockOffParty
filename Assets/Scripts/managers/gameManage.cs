@@ -22,7 +22,7 @@ public class gameManage : MonoBehaviour
 
     [SerializeField]
     public Text[] player_UI;
-    
+
 
     void Start() 
     {
