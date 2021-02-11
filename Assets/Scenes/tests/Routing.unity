@@ -202,16 +202,17 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSpot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
+        type: 3}
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: prevSpot
       value: 
-      objectReference: {fileID: 1493479068}
+      objectReference: {fileID: 2140317190}
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: isEndofArrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af358ca0cbc48c04e9af81d3faa23280, type: 3}
@@ -760,8 +761,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSpot
       value: 
-      objectReference: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
-        type: 3}
+      objectReference: {fileID: 1616019767}
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: prevSpot
@@ -770,7 +770,7 @@ PrefabInstance:
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: isEndofArrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af358ca0cbc48c04e9af81d3faa23280, type: 3}
@@ -1041,6 +1041,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow
       objectReference: {fileID: 0}
+    - target: {fileID: 4370091230525921377, guid: 69b598e1eebc9fa4fa665ae6eefa369d,
+        type: 3}
+      propertyPath: Leftpath
+      value: 
+      objectReference: {fileID: 1387829501}
+    - target: {fileID: 4370091230525921377, guid: 69b598e1eebc9fa4fa665ae6eefa369d,
+        type: 3}
+      propertyPath: Rightpath
+      value: 
+      objectReference: {fileID: 1744726266}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69b598e1eebc9fa4fa665ae6eefa369d, type: 3}
 --- !u!4 &275250974 stripped
@@ -3002,11 +3012,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 934915664}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fde9d59d5ad4174db2dcbc5cd08f1f2, type: 3}
+  m_Script: {fileID: 11500000, guid: eb32dd469a2a1f0478ce50f1fd45cd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   starList: []
-  arrowTrack: 10
+  Arrows: 0400000013000000
 --- !u!4 &934915666
 Transform:
   m_ObjectHideFlags: 0
@@ -4027,7 +4037,7 @@ PrefabInstance:
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: isEndofArrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af358ca0cbc48c04e9af81d3faa23280, type: 3}
@@ -5215,6 +5225,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4370091230525921377, guid: 69b598e1eebc9fa4fa665ae6eefa369d,
+        type: 3}
+      propertyPath: Leftpath
+      value: 
+      objectReference: {fileID: 1110759290}
+    - target: {fileID: 4370091230525921377, guid: 69b598e1eebc9fa4fa665ae6eefa369d,
+        type: 3}
+      propertyPath: Rightpath
+      value: 
+      objectReference: {fileID: 1493479068}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69b598e1eebc9fa4fa665ae6eefa369d, type: 3}
 --- !u!4 &1652864061 stripped
@@ -6567,7 +6587,8 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSpot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5498720700836034034, guid: 1098d11848f6b124ab5636ec2c52b121,
+        type: 3}
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: prevSpot
@@ -6576,7 +6597,7 @@ PrefabInstance:
     - target: {fileID: 6251481120212413773, guid: af358ca0cbc48c04e9af81d3faa23280,
         type: 3}
       propertyPath: isEndofArrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af358ca0cbc48c04e9af81d3faa23280, type: 3}
