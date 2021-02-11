@@ -19,6 +19,11 @@ public class lineDraw : MonoBehaviour
                 Vector3 curArrow = routeToDraw.position;
                 Vector3 leftDraw = routeToDraw.GetComponent<arrow>().Leftpath.position;
                 Vector3 rightDraw = routeToDraw.GetComponent<arrow>().Rightpath.position;
+                leftDraw.x = leftDraw.x-.05f;
+                leftDraw.z = leftDraw.z-.05f;
+                rightDraw.x = rightDraw.x-.05f;
+                rightDraw.z = rightDraw.z-.05f;
+                
                 Gizmos.DrawLine(curArrow,leftDraw);
                 Gizmos.color=Color.red;
                 Gizmos.DrawLine(curArrow,rightDraw);
