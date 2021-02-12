@@ -40,4 +40,7 @@ public class spot : MonoBehaviour
     [SerializeField]
     public bool isEndofArrow = false;
 
+    [SerializeField]
+    public bool isStartofArrow = false;
+
 }

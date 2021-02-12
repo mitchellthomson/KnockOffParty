@@ -1,0 +1,3013 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7426287610506131539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7426287610506131541}
+  - component: {fileID: 7426287610506131540}
+  m_Layer: 0
+  m_Name: RouletteCircleSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7426287610506131541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426287610506131539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.463414, y: -1.0897045, z: -8.49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2452966206558975852}
+  - {fileID: 54435860021894889}
+  - {fileID: 7724636020726851429}
+  - {fileID: 5514528361138433488}
+  - {fileID: 3835080092609762593}
+  - {fileID: 2472520298523926433}
+  - {fileID: 5071403117539567465}
+  - {fileID: 4483546881694139131}
+  - {fileID: 3750938807277650245}
+  - {fileID: 9068492801322299719}
+  - {fileID: 6776092924452360398}
+  - {fileID: 5996862080724699531}
+  - {fileID: 4741497301058957872}
+  - {fileID: 4486453358166102780}
+  - {fileID: 9008859385843854724}
+  - {fileID: 6264106406360584676}
+  - {fileID: 6289365006686110358}
+  - {fileID: 6356843220080633146}
+  - {fileID: 3166610022927661585}
+  - {fileID: 1936143961298697864}
+  - {fileID: 8050825268668071352}
+  - {fileID: 6728298989778112082}
+  - {fileID: 4155384976573418360}
+  - {fileID: 3066363154802411081}
+  - {fileID: 66976144296193670}
+  - {fileID: 1198605911959247518}
+  - {fileID: 2953544361729858219}
+  - {fileID: 5993488179917592024}
+  - {fileID: 1470491391094230770}
+  - {fileID: 8776024539138995286}
+  - {fileID: 3245840744620240286}
+  - {fileID: 2924918555545606433}
+  - {fileID: 6549411961145935369}
+  - {fileID: 9158626661330263524}
+  - {fileID: 7892909675227534871}
+  - {fileID: 7980880419072989982}
+  - {fileID: 6654508340285481489}
+  - {fileID: 625061297231145545}
+  - {fileID: 527416302017737310}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7426287610506131540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426287610506131539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2a05c1fb7062a49a7f3465e5d36de5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPefab: {fileID: 2307136783828874224, guid: af358ca0cbc48c04e9af81d3faa23280,
+    type: 3}
+  rouletteSpots: []
+  genSpots: []
+--- !u!1001 &273553201119958586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &5071403117539567465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 273553201119958586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &317446356647773027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &4741497301058957872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 317446356647773027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &661307007463398531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &5514528361138433488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 661307007463398531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1360849381219136453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6289365006686110358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1360849381219136453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1388365416089460919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6264106406360584676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1388365416089460919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1623478213350106251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &5993488179917592024 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1623478213350106251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1626862838695278808
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &5996862080724699531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1626862838695278808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1798446033432493825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6728298989778112082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1798446033432493825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1869967462497981250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6654508340285481489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1869967462497981250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1991543173597979037
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6776092924452360398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1991543173597979037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2131027607505704041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6356843220080633146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2131027607505704041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2255962639901423450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &6549411961145935369 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2255962639901423450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2892396093017057092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &7892909675227534871 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2892396093017057092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3031102348523916523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &8050825268668071352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3031102348523916523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3128643977635129933
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &7980880419072989982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3128643977635129933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3357872103942542902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &7724636020726851429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3357872103942542902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4067638096104816660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &9068492801322299719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4067638096104816660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4084483982212111575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &9008859385843854724 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4084483982212111575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4229758592056503479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &9158626661330263524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4229758592056503479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4350572596321944837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &8776024539138995286 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4350572596321944837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4826494576735306509
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &527416302017737310 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4826494576735306509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4991984109164109781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &66976144296193670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4991984109164109781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5002232873513250746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &54435860021894889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5002232873513250746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5550207823115361050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &625061297231145545 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5550207823115361050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5891510178252930977
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &1470491391094230770 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5891510178252930977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6127332913172163533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &1198605911959247518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6127332913172163533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6878252029552480219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &1936143961298697864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6878252029552480219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7467050298965493311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &2452966206558975852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7467050298965493311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7492526843138551538
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &2472520298523926433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7492526843138551538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7539429976441363661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &3245840744620240286 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7539429976441363661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7871589037164898418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &2924918555545606433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7871589037164898418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7879044907676478456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &2953544361729858219 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7879044907676478456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7951362849302334274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &3166610022927661585 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7951362849302334274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8009384072859367194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &3066363154802411081 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8009384072859367194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8111568339832235122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &3835080092609762593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8111568339832235122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8188924641955229718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &3750938807277650245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8188924641955229718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8904222610554663848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &4483546881694139131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8904222610554663848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8928932602257433519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &4486453358166102780 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8928932602257433519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8935143813816220203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7426287610506131541}
+    m_Modifications:
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020076986512191828, guid: 3707f50edaeb2d6428c4e3230021342f,
+        type: 3}
+      propertyPath: m_Name
+      value: Roulette Spot (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3707f50edaeb2d6428c4e3230021342f, type: 3}
+--- !u!4 &4155384976573418360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5020076986512191827, guid: 3707f50edaeb2d6428c4e3230021342f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8935143813816220203}
+  m_PrefabAsset: {fileID: 0}

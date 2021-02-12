@@ -105,7 +105,7 @@ public class playerMove : MonoBehaviour
 
     bool MoveToNextNode(Vector3 goal,Transform player)
     {
-        return goal !=(player.position = Vector3.MoveTowards(player.position,goal,2f* Time.deltaTime));
+        return goal !=(player.position = Vector3.MoveTowards(player.position,goal,15f* Time.deltaTime));
     }
 
     public void Endmove(int chips)
