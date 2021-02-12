@@ -5,22 +5,34 @@ using UnityEngine;
 public class spinTheWheel : MonoBehaviour
 {
     [SerializeField]
-    public spinInit spinInit;
+    private spinInit spinInit;
 
     [SerializeField]
-    public GameObject bottomEntrance;
+    private List<Transform> spinnerSpots = new List<Transform>();
 
     [SerializeField]
-    public GameObject bottomExit;
+    private Transform topLeftExit;
 
     [SerializeField]
-    public Transform intoSpin;
+    private Transform botLeftExit;
 
     [SerializeField]
-    public Transform outOfSpin;
+    private Transform topExit;
 
     [SerializeField]
-    public List<Transform> spinnerSpots = new List<Transform>();
+    private Transform topRightExit;
+
+    [SerializeField]
+    private Transform botRightExit;
+
+    [SerializeField]
+    private Transform leftEntrance;
+
+    [SerializeField]
+    private Transform rightEntrance;
+
+    [SerializeField]
+    private Transform botEntrance;
 
     private bool isSpinning;
 
@@ -31,16 +43,14 @@ public class spinTheWheel : MonoBehaviour
         
         spinnerSpots = spinInit.spinnerSpots;
         Vector3 rotateSpot = spinnerSpots[0].GetComponent<RouletteSpot>().SpinSpot.position;
-        Vector3 entrancePos = bottomEntrance.transform.position;
         float time = Random.Range(4f,6f);
         float speed = Random.Range(6f,10f);
         StartCoroutine(spin(rotateSpot,time,speed));
         
     }
 
-    public IEnumerator changeRoute()
+    /*public IEnumerator changeRoute()
     {
-        Vector3 entrancePos = bottomEntrance.transform.position;
         float distance = Mathf.Infinity;
         isChanging = false;
         if(isChanging)
@@ -61,15 +71,16 @@ public class spinTheWheel : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(0.5f);
-        intoSpin.GetComponent<spot>().nextSpot = outOfSpin;
 
     }
+    */
 
     public IEnumerator spin(Vector3 rotateSpot,float time,float speed)
     {
         if(isSpinning)yield break;
         List<Transform> spinnerSpots = spinInit.spinnerSpots;
 
+        speed = 1f;
         var passedTime = 0f;
 
         while(passedTime < time)
@@ -78,14 +89,14 @@ public class spinTheWheel : MonoBehaviour
             passedTime += Mathf.Min(time - passedTime, Time.deltaTime);
             foreach(Transform child in spinnerSpots)
             {
-                child.RotateAround(rotateSpot,Vector3.up,5);
+                child.RotateAround(rotateSpot,Vector3.up,speed);
             }
             
             yield return null;
         }
         
         isSpinning = false;
-        StartCoroutine(changeRoute());
+        //StartCoroutine(changeRoute());
     }
 
 }

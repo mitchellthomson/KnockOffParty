@@ -3341,13 +3341,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934915664}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb32dd469a2a1f0478ce50f1fd45cd20, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fde9d59d5ad4174db2dcbc5cd08f1f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   starList: []
-  Arrows: 04000000130000001e000000
 --- !u!4 &934915666
 Transform:
   m_ObjectHideFlags: 0

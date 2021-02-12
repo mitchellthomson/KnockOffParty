@@ -15,7 +15,7 @@ public class diceManager : MonoBehaviour
             {
                 print("We Rolling");
                 hasRolled = true;
-                rolled = Random.Range(22,30);
+                rolled = Random.Range(99,110);
                 
                 yield return rolled;
 
