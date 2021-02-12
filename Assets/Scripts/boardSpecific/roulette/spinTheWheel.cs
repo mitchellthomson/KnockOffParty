@@ -6,9 +6,9 @@ public class spinTheWheel : MonoBehaviour
 {
     [SerializeField]
     private spinInit spinInit;
-
+    
     [SerializeField]
-    private List<Transform> spinnerSpots = new List<Transform>();
+    private routeAfterSpin routeAfterSpin;
 
     [SerializeField]
     private Transform topLeftExit;
@@ -25,15 +25,6 @@ public class spinTheWheel : MonoBehaviour
     [SerializeField]
     private Transform botRightExit;
 
-    [SerializeField]
-    private Transform leftEntrance;
-
-    [SerializeField]
-    private Transform rightEntrance;
-
-    [SerializeField]
-    private Transform botEntrance;
-
     private bool isSpinning;
 
     private bool isChanging;
@@ -41,8 +32,8 @@ public class spinTheWheel : MonoBehaviour
     public void spinThatWheel()
     {
         
-        spinnerSpots = spinInit.spinnerSpots;
-        Vector3 rotateSpot = spinnerSpots[0].GetComponent<RouletteSpot>().SpinSpot.position;
+        Transform spinnerSpot = spinInit.spinnerSpots[0];
+        Vector3 rotateSpot = spinnerSpot.GetComponent<RouletteSpot>().SpinSpot.position;
         float time = Random.Range(4f,6f);
         float speed = Random.Range(6f,10f);
         StartCoroutine(spin(rotateSpot,time,speed));

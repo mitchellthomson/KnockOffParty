@@ -12,43 +12,28 @@ public class spinInit : MonoBehaviour
     public List<Transform> spinnerSpots = new List<Transform>();
 
     [SerializeField]
-    public Transform[] fixedSpots;
+    public List<Transform>insideExits = new List<Transform>();
 
     [SerializeField]
-    public Transform fixedTop;
+    public List<Transform>wheelExits = new List<Transform>();
 
     [SerializeField]
-    public Transform fixedRightEntrance;
-
-    [SerializeField]
-    public Transform fixedBotRightEntrance;
-
-    [SerializeField]
-    public Transform fixedLeftEntrance;
-
-    [SerializeField]
-    public Transform fixedRightExit;
-
-    [SerializeField]
-    public Transform fixedBotRightExit;
-
-    [SerializeField]
-    public Transform fixedBotLeftExit;
-
-    [SerializeField]
-    public Transform fixedLeftExit;
-
+    public List<Vector3>wheelExitspos = new List<Vector3>();
 
     void Awake() 
     {
+        wheelExitspos.Clear();
         spinnerSpots.Clear();
-        fixedSpots = new Transform[]{fixedTop,fixedRightEntrance,fixedBotRightEntrance,fixedLeftEntrance,fixedRightExit,fixedBotRightExit,fixedBotLeftExit,fixedLeftExit};
         foreach(Transform child in route)
         {
             if(child.GetComponent(typeof(RouletteSpot))!=null)
             {
                 spinnerSpots.Add(child);
             }
+        }
+        foreach(Transform child in wheelExits)
+        {
+            wheelExitspos.Add(child.position);
         }
     }
 }
