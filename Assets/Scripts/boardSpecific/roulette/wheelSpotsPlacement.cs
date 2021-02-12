@@ -13,9 +13,12 @@ public class wheelSpotsPlacement : MonoBehaviour
     [SerializeField]
     public List<Transform> genSpots = new List<Transform>();
 
+    [SerializeField]
+    public float distanceApart;
+
     public void Start()
     {
-        CreateEnemiesAroundPoint (38,transform.position,20f);
+        CreateEnemiesAroundPoint (38,transform.position,distanceApart);
         PermCircle();
     }
     public void CreateEnemiesAroundPoint (int num, Vector3 point, float radius)

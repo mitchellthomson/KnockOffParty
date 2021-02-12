@@ -78,7 +78,7 @@ public class spinTheWheel : MonoBehaviour
             passedTime += Mathf.Min(time - passedTime, Time.deltaTime);
             foreach(Transform child in spinnerSpots)
             {
-                child.RotateAround(rotateSpot,Vector3.down,speed);
+                child.RotateAround(rotateSpot,Vector3.up,5);
             }
             
             yield return null;
